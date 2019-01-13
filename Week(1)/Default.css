@@ -1,0 +1,20 @@
+
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 5px;
+    text-align: left;
+}
+
+.TableHeader{
+    background-color: black;
+    color:white;
+}
+
+.HomeHeader{
+    background-color: blue;
+    color: orange;
+}
