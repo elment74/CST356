@@ -1,0 +1,27 @@
+
+
+FROM nginx
+#COPY nginx/nginx.conf /etc/nginx/nginx.conf
+#RUN apk add --update py2-pip
+#Used to just copy the requirements.txt file used for python over
+#Not sure if we need it for what we're doing
+#COPY requirements.txt /usr/src/app/
+#RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
+
+#Copying of an html file, probably going to need to do this with all
+#of the files in the directory
+#COPY app.py /usr/src/app/
+#COPY templates/index.html /usr/src/app/templates/
+
+COPY default.conf /etc/nginx/
+COPY home.html /usr/share/nginx/html/
+COPY login.html /usr/share/nginx/html/
+COPY person.html /usr/share/nginx/html/
+COPY student.html /usr/share/nginx/html/
+COPY Default.css /usr/share/nginx/html/
+
+
+EXPOSE 80
+
+#CMD ["/usr/src/app/home.html"]
+CMD ["nginx", "-g", "daemon off;"]
