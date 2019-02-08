@@ -1,25 +1,22 @@
-function initStudents() {
-    var data = getStudents();
-    displayStudents(data.students);
+function initStudent() {
+    var data = getStudent();
+    displayStudent(data.student);
 }
 
-function getStudents() {
-    return JSON.parse(studentsData);
+function getStudent() {
+    return JSON.parse(students);
 }
 
-function displayStudents(students) {
+function displayStudent(students) {
 
     for(i = 0; i < students.length; i++) {
-
-        console.log('id: ' + students[i].id);
-        console.log('email: ' + students[i].email)
+        console.log('id: ' + products[i].id);
+        console.log('email: ' + products[i].email);
         var id = students[i].id;
-        var email = students[i].name;
-        $("table tbody").append(markup);
+        var email = students[i].email;
+        var complete = "<tr><td>" + id + "</td><td>" + email + "</td><td>";
+        $("table tbody").append(complete);
     }
 }
 
-//text = localStorage.getItem("studentdata");
-//obj = JSON.parse(text);
-//document.getElementById("").innerHTML = obj.name;
-var studentsData = '{"students": [{"id": "452135","email": something@oit.edu},{"name": "recliner","price": 199.00,"available": false}]}'
+var students = '{"students": [{"id": "456789","email": something},{"id": "456789","email": something}]}'
