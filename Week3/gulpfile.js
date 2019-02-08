@@ -1,11 +1,11 @@
 // Gulp 4
 
-const { src, dest, parallel, series } = require('gulp');
-const minifyCSS = require('gulp-csso');
-const concat = require('gulp-concat');
-const uglify = require('gulp-uglify');
-const inject = require('gulp-inject');
-const removeCode = require('gulp-remove-code');
+var { src, dest, parallel, series } = require('gulp');
+var minifyCSS = require('gulp-csso');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+var inject = require('gulp-inject');
+var removeCode = require('gulp-remove-code');
 var sourcemaps = require('gulp-sourcemaps');
 var watch = require('gulp-watch');
 

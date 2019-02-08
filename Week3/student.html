@@ -3,6 +3,7 @@
 <head>
     <!--removeIf(production-->
     <link rel="stylesheet" type="text/css" href="Default.css">
+    <!--<script src="../node_modules/jquery/dist/jquery.js"></script>-->
     <!--endRemoveIf(production)-->
     <!-- inject:css -->
     <!-- endinject --> 
@@ -43,7 +44,18 @@
         </tr>
     </table>
 
+    <!-- inject:js -->
+        <!-- endinject -->
 
+        <!--removeIf(production)-->
+        <script src='js/student.js'></script>
+        <!--endRemoveIf(production)-->
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                initStudents();
+            });
+        </script>
 
 
 </body>
