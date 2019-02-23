@@ -1,44 +1,54 @@
 <template>
     <div>
-        <h2>Persons</h2>
-        <tr>
-            <th>First Name</th>
-            <th>Middle Initial</th>
-            <th>Last Name</th>
-        </tr>
-        <tr>
-            <th>Tung</th>
-            <th>H</th>
-            <th>Duong</th>
-        </tr>
-        <tr>
-            <th>John</th>
-            <th></th>
-            <th>Wick</th>
-        </tr>
-        <tr>
-            <th>Keanu</th>
-            <th>C</th>
-            <th>Reeves</th>
-        </tr>
-        <tr>
-            <th>Harrison</th>
-            <th></th>
-            <th>Ford</th>
-        </tr>
-        <tr>
-            <th>Takaya</th>
-            <th></th>
-            <th>Kuroda</th>
-        </tr>
+        <h2 class ='section-heading'>Persons</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Middle Initial</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="product in products" :key="product.id">
+                    <td>{{ product.name }}</td>
+                    <td>${{ product.price }}</td>
+                    <td>{{ product.available ? 'Yes' : 'No' }}</td>
+            </tbody>
+        </table>
     </div>
 </template>
 
 <script>
-export default {
-
-}
+    import Vue from 'vue';
+    export default {
+        name: 'Persons',
+        
+        data () {
+            return {
+                persons: []
+            }
+        },
+        methods: {
+            getPersons: function() {
+                let personsApi = process.env.PERSON_API;
+                Vue.axios.get(personsApi).then(
+                    (response) => {
+                        console.log(response)
+                        this.products = response.data;
+                    },
+                    (error) => {
+                        console.log(error)
+                    }
+                );  
+            }
+        },
+        mounted() {
+            this.getPersons();
+        }
+    }
 </script>
+
 
 <style>
 table, th, td{

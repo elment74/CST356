@@ -20,23 +20,33 @@
 
 
 <script>
-export default {
-    name: 'Students',
-    mounted() {
-        this.students = getStudent();
-    },
-    data() {
-        return {
-            students: []
+import Vue from 'vue';
+    export default {
+        name: 'Students',
+        
+        data () {
+            return {
+                students: []
+            }
+        },
+        methods: {
+            getStudents: function() {
+                let studentsApi = process.env.STUDENT_API;
+                Vue.axios.get(studentsApi).then(
+                    (response) => {
+                        console.log(response)
+                        this.students = response.data;
+                    },
+                    (error) => {
+                        console.log(error)
+                    }
+                );  
+            }
+        },
+        mounted() {
+            this.getStudents();
         }
     }
-}
-
-function getStudents() {
-    return JSON.parse(testStudents).students;
-}
-
-var testStudents = '{"students": [{"id": "123456", "email":"Something@something.com"}]}'
 </script>
 
 

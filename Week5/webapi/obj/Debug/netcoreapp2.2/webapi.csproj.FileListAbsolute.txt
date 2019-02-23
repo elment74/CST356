@@ -1,0 +1,14 @@
+D:\Git\Web Development\CST356\Week5\webapi\bin\Debug\netcoreapp2.2\webapi.deps.json
+D:\Git\Web Development\CST356\Week5\webapi\bin\Debug\netcoreapp2.2\webapi.runtimeconfig.json
+D:\Git\Web Development\CST356\Week5\webapi\bin\Debug\netcoreapp2.2\webapi.runtimeconfig.dev.json
+D:\Git\Web Development\CST356\Week5\webapi\bin\Debug\netcoreapp2.2\webapi.dll
+D:\Git\Web Development\CST356\Week5\webapi\bin\Debug\netcoreapp2.2\webapi.pdb
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.csprojAssemblyReference.cache
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.csproj.CoreCompileInputs.cache
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.RazorAssemblyInfo.cache
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.RazorAssemblyInfo.cs
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.AssemblyInfoInputs.cache
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.AssemblyInfo.cs
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.RazorTargetAssemblyInfo.cache
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.dll
+D:\Git\Web Development\CST356\Week5\webapi\obj\Debug\netcoreapp2.2\webapi.pdb
