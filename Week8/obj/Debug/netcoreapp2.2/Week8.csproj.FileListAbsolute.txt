@@ -1,0 +1,4 @@
+D:\Git\Web Development\CST356\Week8\obj\Debug\netcoreapp2.2\Week8.csprojAssemblyReference.cache
+D:\Git\Web Development\CST356\Week8\obj\Debug\netcoreapp2.2\Week8.csproj.CoreCompileInputs.cache
+D:\Git\Web Development\CST356\Week8\obj\Debug\netcoreapp2.2\Week8.AssemblyInfoInputs.cache
+D:\Git\Web Development\CST356\Week8\obj\Debug\netcoreapp2.2\Week8.AssemblyInfo.cs

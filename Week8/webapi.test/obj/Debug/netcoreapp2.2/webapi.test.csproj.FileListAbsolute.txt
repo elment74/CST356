@@ -1,0 +1,17 @@
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\webapi.test.deps.json
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\webapi.test.runtimeconfig.json
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\webapi.test.runtimeconfig.dev.json
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\webapi.test.dll
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\webapi.test.pdb
+D:\Git\Web Development\CST356\Week8\webapi.test\obj\Debug\netcoreapp2.2\webapi.test.csprojAssemblyReference.cache
+D:\Git\Web Development\CST356\Week8\webapi.test\obj\Debug\netcoreapp2.2\webapi.test.csproj.CoreCompileInputs.cache
+D:\Git\Web Development\CST356\Week8\webapi.test\obj\Debug\netcoreapp2.2\webapi.test.AssemblyInfoInputs.cache
+D:\Git\Web Development\CST356\Week8\webapi.test\obj\Debug\netcoreapp2.2\webapi.test.AssemblyInfo.cs
+D:\Git\Web Development\CST356\Week8\webapi.test\obj\Debug\netcoreapp2.2\webapi.test.dll
+D:\Git\Web Development\CST356\Week8\webapi.test\obj\Debug\netcoreapp2.2\webapi.test.pdb
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\webapi.dll
+D:\Git\Web Development\CST356\Week8\webapi.test\bin\Debug\netcoreapp2.2\webapi.pdb
+D:\Git\Web Development\CST356\Week8\webapi.test\obj\Debug\netcoreapp2.2\webapi.test.csproj.CopyComplete
